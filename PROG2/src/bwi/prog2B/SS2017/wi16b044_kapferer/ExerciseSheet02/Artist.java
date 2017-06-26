@@ -1,5 +1,7 @@
 package bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02;
 
+import bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02.Artist;
+
 public class Artist {
 	
 	private String name;
@@ -7,10 +9,17 @@ public class Artist {
 	//Constructor
 	
 	public Artist() {
-		
+		this.name = "unknown";
 	}
 	
+	public Artist(Artist a) {
+		this();
+		setName(a.name);
+	}
 	
+	public Artist(String name) {
+		this.name = name;
+	}
 	//Methods
 	
 	public String getName() {
@@ -18,8 +27,11 @@ public class Artist {
 	}
 	
 	public void setName(String name) {
-			
+		if (name == null) {
+			return;
+		} else {
 		this.name=name;
+		}
 	}
 	
 

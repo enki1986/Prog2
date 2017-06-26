@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet01.test.TrackTest">
+      <class name="bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02.test.EventTest">
         <methods>
-          <include name="setTitle" invocation-numbers="0"/>
+          <include name="setDescription" invocation-numbers="0"/>
+          <include name="setDate" invocation-numbers="0"/>
           <include name="init"/>
         </methods>
-      </class> <!-- bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet01.test.TrackTest -->
+      </class> <!-- bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02.test.EventTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

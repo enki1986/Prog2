@@ -10,7 +10,30 @@ public class Track {
 	private Artist	writer = new Artist();;
 	private int		year;
 	
-	 
+	// CONSTRUCTORS
+	
+	
+	public Track() {
+		this.title = "unknown";
+		this.duration = 0;
+		this.performer = new Artist();
+		this.writer = new Artist();
+	}
+	
+	public Track(String title) {
+		this();
+		this.title = title;
+	}
+	
+	public Track(Track t) {
+		this.duration = t.duration;
+		this.performer = new Artist(t.performer);
+		this.title = t.title;
+		this.writer = new Artist(t.writer);
+		this.year = t.year;		
+	}
+	
+	// METHODS
 	
 	public int getDuration() {
 		return duration;						

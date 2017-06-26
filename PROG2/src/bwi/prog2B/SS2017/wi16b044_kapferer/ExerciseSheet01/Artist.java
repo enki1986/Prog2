@@ -7,10 +7,17 @@ public class Artist {
 	//Constructor
 	
 	public Artist() {
-		
+		this.name = "unknown";
 	}
 	
+	public Artist(Artist a) {
+		this();
+		setName(a.name);
+	}
 	
+	public Artist(String name) {
+		this.name = name;
+	}
 	//Methods
 	
 	public String getName() {

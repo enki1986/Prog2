@@ -8,8 +8,9 @@
 // 
 // ***************************************************/
 
-package bwi.prog2X.SS201X.wiXXbXXX_LastName.Sample.tests;
-import bwi.prog2X.SS201X.wiXXbXXX_LastName.Sample.entities.*;
+package bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02.test;
+import bwi.prog2B.SS2017.wi16b044_kapferer.ExerciseSheet02.*;
+
 import bwi.prog.utils.Date;
 import bwi.prog.utils.Venue;
 import static org.testng.Assert.assertEquals;
