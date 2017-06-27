@@ -77,5 +77,17 @@ public class Venue {
 	/**************** ES 03 ***********************/
 
 	
+	/**
+	 * creates a copy of a venue
+	 *
+	 * @ProgrammingProblem.Aspect copy constructor 
+     * @ProgrammingProblem.Introduced ExerciseSheet03
+	 */
+	public Venue(Venue v){
+		if (v==null)return;
+		this.name = v.name;
+		this.capacity = v.capacity;
+	}
+	
 
 }
